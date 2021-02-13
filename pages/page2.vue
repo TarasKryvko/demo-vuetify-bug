@@ -3,6 +3,9 @@
   <v-row>
     <h1>Page 2</h1>
   </v-row>
+  <v-row>
+    <v-btn>Button 2</v-btn>
+  </v-row>
   <v-row justify="center" align="center"> 
     <v-menu :close-on-content-click="false" max-width="290">
       <template v-slot:activator="{ on, attrs }">
